@@ -22,7 +22,7 @@
     * **VK:** [скрыто]()
     * **Discord:** [Albee#4191]()
     * **Steam:** [скрыто]()
-    * **Reddit:** [скрыто]()
+    * **Reddit:** [-_-Albee-_-](https://www.reddit.com/user/-_-Albee-_-)
 
 * Куратор сервера:
 
