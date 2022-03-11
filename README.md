@@ -6,9 +6,9 @@ Ensure that the part of content could be implemented into calculations dependenc
 
 ### License
 
-Project is under protection of no self-written license: [MIT License](LICENSE.md).
+Project is under protection of self-written license: [Custom LC License](LICENSE.md).
 
-Documentations and any different modules also are under protection of stated license.
+Documentations and any different modules also are under protection of: [MIT License](https://choosealicense.com/licenses/mit/#).
 
 ### Contact
 
