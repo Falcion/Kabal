@@ -1,4 +1,4 @@
-Copyright notice (c) 2021-2022
+Copyright notice (c) 2022
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the software without restriction, including without limitation the rights:
 
@@ -16,4 +16,8 @@ Author is not affiliated with any potentially mentioned entity in this document 
 
 All credits for their respective works, software, brandings, copyrights and/or trademarks belongs entirely to them as owners or licensers.
 
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+**Warranty of any kind**
+
+Software is provided "as is" withot warranty of any kind: express either implied, including but not limited to the warranties of merchantability or fitness for a particular purpose and noninfringement.
+
+In no event shall the authors or copyright holders be liable for any claim, damages or other liablity, whether in action of contract, tort either otherwise, arising from, out of "or-in" connection with the software or the use or other dealings in the software.
