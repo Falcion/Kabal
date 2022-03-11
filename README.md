@@ -58,7 +58,7 @@ Ensure you not violating any forms of licenses and codes of conduct of this proj
 
 For different pull-requests topics you can use different patterns of it.
 
-##### Guideline
+#### Guideline
 
 1. Fork current repository.
 2. Clone the repository with help of different REST-clients alike SSH and HTTPS.
