@@ -18,7 +18,7 @@ Developer could be contacted with his personal e-mail:
 
 ### Installation
 
-Permission is granted for free use in any of yours modpack in case of non-commercial goals.
+Permission is granted for free use in any of your projects.
 
 Guide for installation of source code of the class-library:
 
