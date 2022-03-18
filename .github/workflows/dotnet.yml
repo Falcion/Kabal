@@ -1,0 +1,25 @@
+name: .NET
+
+on:
+  push:
+    branches: [ default ]
+  pull_request:
+    branches: [ default ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: .NET Environment.
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    - name: Restore the dependencies.
+      run: dotnet restore
+    - name: Building the project.
+      run: dotnet build --no-restore
+    - name: Debug.
+      run: dotnet test --no-build --verbosity normal
