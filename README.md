@@ -22,7 +22,7 @@ Permission is granted for free use in any of your projects.
 
 Guide for installation of source code of the class-library:
 
-1. Clone the source with GIT technology.
+1. Clone the source with any form of GIT technology.
 2. Put the class in path of project and define namespace of its.
 3. Class-library is ready to be used in project.
 
