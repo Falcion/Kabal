@@ -71,4 +71,4 @@ For different pull-requests topics you can use different patterns of it.
 
 For one-single file contributioning pull-requests, use a more quicker way without cloning of fork.
 
-More about it: [Synching a fork](https://help.github.com/articles/syncing-a-fork).
+More about it: [synching a fork](https://help.github.com/articles/syncing-a-fork).
