@@ -22,7 +22,7 @@ namespace MathFX
 
             ulong result = 1;
 
-            for(ulong i = 1; i < N; i++)
+            for (ulong i = 1; i <= N; i++)
             {
                 result *= i;
             }
@@ -50,7 +50,7 @@ namespace MathFX
             if (numDigits.Equals(null))
                 throw NonDigitException;
 
-            foreach(char numDigit in numDigits)
+            foreach (char numDigit in numDigits)
             {
                 result += Factorial(Convert.ToUInt64(numDigit));
             }
@@ -107,7 +107,7 @@ namespace MathFX
 
             ulong result = 1;
 
-            for(ulong i = 1; i < N; i++)
+            for (ulong i = 1; i <= N; i++)
             {
                 result *= Factorial(i);
 
@@ -133,7 +133,7 @@ namespace MathFX
 
             ulong result = 1;
 
-            for (ulong i = 1; i < N; i++)
+            for (ulong i = 1; i <= N; i++)
             {
                 result *= Superfactorial(i);
 
@@ -156,16 +156,19 @@ namespace MathFX
 
             ulong result = 1;
 
-            if(N % 2 == 0)
+            if (N % 2 == 0)
             {
-                for(ulong i = 2; i < N - 2; i += 2)
+                // If N even to 2: multiply result 1 => 2 because we are starting from 2.
+                result *= 2;
+
+                for (ulong i = 2; i <= N - 2; i += 2)
                 {
                     result *= i;
                 }
             }
             else
             {
-                for(ulong i = 1; i < N && i % 2 == 1; i++)
+                for (ulong i = 1; i <= N && i % 2 == 1; i++)
                 {
                     result *= i;
                 }
@@ -196,7 +199,7 @@ namespace MathFX
             if (M >= N)
                 throw new ArithmeticException("Can't count multiple factorial when the multiple greater or equals to subfunction number!");
 
-            switch(M)
+            switch (M)
             {
                 // Factorial is a special case of the multiple factorial when multiple = 1
                 case 1:
@@ -209,7 +212,7 @@ namespace MathFX
 
             ulong result = 1;
 
-            for (ulong i = 1; i < N && i % M == 0; i++)
+            for (ulong i = 1; i <= N && i % M == 0; i++)
             {
                 result *= i;
             }
@@ -264,12 +267,14 @@ namespace MathFX
         }
 
         /// <summary>
-        /// Primorial is the product of the first prime numbers of P in the range up to N.
+        /// Primorial is the product of the first prime numbers of P in the count of N (N count of P primes).
         /// </summary>
         /// <param name="N">A 64-bit non-negative integer from which the function will be calculated.</param>
         /// <returns>A calculation of function from given number. If N = 0 and N = 1: returns 1.</returns>
         public static ulong Primorial(ulong N)
         {
+            ulong PRIMES_INIT = (ulong)Math.Pow(N, N);
+
             if (N == 0)
                 return 1;
 
@@ -279,40 +284,33 @@ namespace MathFX
 
             List<ulong> primes = new List<ulong>();
 
-            while(N % 2 == 0)
-            {
-                primes.Add(2);
-                N /= 2;
-            }
+            bool isPrime = true;
 
-            for(ulong i = 3; i < Math.Sqrt(N); i += 2)
+            // Defining range of max and min because of 'misinformation' in functions terms.
+            for (ulong i = 2; i <= N * 4; i++)
             {
-                while(N % i == 0)
+                // Base logic of primes.
+                for (ulong j = 2; j <= N * 4; j++)
+                {
+                    // Module operation being employed.
+                    if (i != j && i % j == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime)
                 {
                     primes.Add(i);
-                    N /= i;
                 }
-            }
-
-            if (N > 2)
-                primes.Add(N);
-
-            foreach(ulong value in primes)
-            {
-                List<ulong> map = primes.FindAll(match => match == value);
-
-                if(map.Count > 1)
-                {
-                    primes.RemoveAll(match => match == value);
-                    primes.Add(value);
-                }
+                isPrime = true;
             }
 
             ulong result = 1;
 
-            foreach(ulong prime in primes)
+            for (ulong i = 0; i < N; i++)
             {
-                result *= prime;
+                result *= primes[(int)i];
             }
 
             return result;
@@ -335,19 +333,15 @@ namespace MathFX
             fibonaccis.Add(1);
             fibonaccis.Add(1);
 
-            for(int i = 3; (ulong)i < N; i++)
+            for (int i = 3; (ulong)i <= N; i++)
             {
-                // If next value in Fibonacci's order greater than subfunction N, stop calculations of order.
-                if (fibonaccis[i - 2] + fibonaccis[i - 3] > N)
-                    break;
-
                 fibonaccis.Add(fibonaccis[i - 2] + fibonaccis[i - 3]);
             }
 
-            foreach(ulong value in fibonaccis)
+            for (ulong i = 0; i < N; i++)
             {
-                result *= value;
-            }
+                result *= fibonaccis[(int)i];
+            }   
 
             return result;
         }
