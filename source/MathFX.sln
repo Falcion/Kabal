@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathFX", "MathFX.csproj", "{C7072ECE-AEAB-402B-88A1-F02D37DD2075}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathFX", "MathFX.csproj", "{5142959F-16B6-4F7F-B571-7F9ACA6C6217}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C7072ECE-AEAB-402B-88A1-F02D37DD2075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7072ECE-AEAB-402B-88A1-F02D37DD2075}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7072ECE-AEAB-402B-88A1-F02D37DD2075}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7072ECE-AEAB-402B-88A1-F02D37DD2075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5142959F-16B6-4F7F-B571-7F9ACA6C6217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5142959F-16B6-4F7F-B571-7F9ACA6C6217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5142959F-16B6-4F7F-B571-7F9ACA6C6217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5142959F-16B6-4F7F-B571-7F9ACA6C6217}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3FBBB07B-7F15-40E7-ACDD-CE11B956E8CA}
+		SolutionGuid = {00C12E7E-6F1E-421C-A2AF-DCF85C6E859F}
 	EndGlobalSection
 EndGlobal
