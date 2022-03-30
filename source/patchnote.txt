@@ -13,7 +13,6 @@ __________________________________________________________#
 - Added rationalization module.
 - Written an advanced trigonometric functions (cosec, sec)
 
-
 __________________________________________________________#
 
 MIT License
