@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Falcion</Authors>
+    <RepositoryUrl>https://github.com/Falcion/MathFX/</RepositoryUrl>
+    <PackageTags>calculations, library, math, rationalization, combinatorics</PackageTags>
+    <NeutralLanguage>en-150</NeutralLanguage>
+    <Copyright>MIT License</Copyright>
+    <Description>MathFX is a class-library created for different advanced calculations either something more specificated like rationalization of different expressions.</Description>
+    <PackageReleaseNotes>Written a functions of different factorials, main module of rationalization and calculation functions of cosec and sec.</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
 </Project>
