@@ -14,6 +14,12 @@ Developer could be contacted with his personal e-mail:
 
 - <a href= "mailto: io.falcion@outlook.com">Outlook E-mail</a>
 
+### License
+
+Project is under protection of: [MIT License](LICENSE.md).
+
+Documentations and any different modules are under protection of: [MIT License](https://choosealicense.com/licenses/mit/).
+
 ### Installation
 
 Permission is granted for free use in any of your projects.
