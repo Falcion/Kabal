@@ -1,6 +1,4 @@
-# GITIGNORE of CSHARP project.
-#
-# User-specific files.
+# .GITIGNORE
 
 *.rsuser
 *.suo
@@ -8,11 +6,9 @@
 *.userosscache
 *.sln.docstates
 
-# Mono-auto-generated.
+*.userprefs
 
 mono_crash.*
-
-# Builds.
 
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -28,26 +24,5 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-[Pp]roperties/
-
-# Environment cache and workspace options.
 
 .vs/
-.vscode/
-
-# «NUGET» files.
-
-*.nupkg
-*.snupkg
-*.nuget.props
-*.nuget.targets
-
-# SQL.
-
-*.mdf
-*.ldf
-*.ndf
-
-# History of projects environment.
-
-.history/

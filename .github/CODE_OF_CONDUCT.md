@@ -1,6 +1,10 @@
+
+## Contributor covenant code of conduct
+### Preamble
+
 Any participant of this project are expected to abide by this code of conduct: both online and during in-person events that are hosted and/or associated with this organization.
 
-Organization was created to foster an open, innovative and inclusive community around open source: to clarify expected behaviour in communities project have adopted the contributor covenant.
+Project was created to foster an open, innovative and inclusive community around open source: to clarify expected behaviour in communities project have adopted the contributor covenant.
 
 — [Contributor Covenant](https://www.contributor-covenant.org/)
 
@@ -35,7 +39,7 @@ Examples of unacceptable behaviour by participants include:
 
 Violations of the code of conduct may be reported by sending to written in README e-mail or creating an issue.
 
-- <a href= "mailto: jr.deltamine@outlook.com">Outlook E-mail</a>
+- <a href= "mailto: io.falcion@outlook.com">Outlook E-mail</a>
 
 Any report will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances: further details of specific enforcement policies may be posted separately.
 
@@ -47,3 +51,8 @@ For answers to common questions about this code of conduct, see the FAQ at link 
 
 - https://www.contributor-covenant.org/faq
 - https://www.contributor-covenant.org/translations
+
+Code of conduct is adapted from «Contributor Covenant» of version 2.0:
+
+- https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+  
