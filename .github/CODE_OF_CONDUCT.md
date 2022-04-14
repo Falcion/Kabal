@@ -1,18 +1,32 @@
+<br />
 
-## Contributor covenant code of conduct
+- [Preamble](#preamble)
+- [Commitment](#commitment)
+- [Behaviour](#behaviour)
+- [Enforcement](#enforcement)
+- [Attribution](#attribution)
+
+<!-- Inspired by .NET Foundation contributor covenant -->
+
+<!-- Preamble of the document: write a purpose of the open source community -->
 ### Preamble
 
 Any participant of this project are expected to abide by this code of conduct: both online and during in-person events that are hosted and/or associated with this organization.
 
 Project was created to foster an open, innovative and inclusive community around open source: to clarify expected behaviour in communities project have adopted the contributor covenant.
 
+<!-- Another reference to the global source of contributors covenants -->
+
 — [Contributor Covenant](https://www.contributor-covenant.org/)
 
-### Obligation
+### Commitment
 
 As members, contributors, and leaders pledge to make participation in this community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 Project pledges to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+
+<br />
+<p align="right"><a href="#top" title="Back to the top">↺</a></p>
 
 ### Behaviour
 
@@ -35,9 +49,14 @@ Examples of unacceptable behaviour by participants include:
 - Attacking personal tastes.
 - Other conduct which you know could reasonably be considered inappropriate in a professional setting.
 
+<br />
+<p align="right"><a href="#top" title="Back to the top">↺</a></p>
+
 ### Enforcement
 
 Violations of the code of conduct may be reported by sending to written in README e-mail or creating an issue.
+
+<!-- Referencing developer contact information again in CODE_OF_CONDUCT -->
 
 - <a href= "mailto: io.falcion@outlook.com">Outlook E-mail</a>
 
@@ -45,6 +64,10 @@ Any report will be reviewed and investigated and will result in a response that 
 
 Project hold the right and responsibility to remove comments or other contributions that are not aligned to this contributor covenant, or to ban temporarily or permanently any members for other behaviours that they deem inappropriate, threatening, offensive, or harmful.
 
+<br />
+<p align="right"><a href="#top" title="Back to the top">↺</a></p>
+
+<!-- Additional information: sources of document -->
 ### Attribution
 
 For answers to common questions about this code of conduct, see the FAQ at link with specified article and as for the translations: they are avalaible at also specified article-link.
@@ -52,7 +75,17 @@ For answers to common questions about this code of conduct, see the FAQ at link 
 - https://www.contributor-covenant.org/faq
 - https://www.contributor-covenant.org/translations
 
-Code of conduct is adapted from «Contributor Covenant» of version 2.0:
+Code of conduct is adapted from «Contributor Covenant» of version «2.0»:
 
 - https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+
+<br />
+<p align="right"><a href="#top" title="Back to the top">↺</a></p>
   
+<!-- 
+    CODE_OF_CONDUCT constantly using button that described above.
+    Array for potential symbols of this mini-function:
+        ↟↑↥↺⇑⇞
+
+    Advice: don't use chars that are too bold or detailed.
+ -->
