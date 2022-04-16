@@ -36,7 +36,7 @@
 
 <br />
 <div align="center">
-    <img src="./.resources/images/icon.png" alt="Icon" width="80" height="80">
+    <img src="./.resources/images/icon.png" alt="Icon" width="168" height="168">
     <h3 align="center">MathFX</h3>
     <!---->
     <p align="center">
