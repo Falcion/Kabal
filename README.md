@@ -18,7 +18,7 @@
 [FRK_LINK]: https://img.shields.io/github/forks/Falcion/MathFX?style=for-the-badge
 [STR_LINK]: https://img.shields.io/github/stars/Falcion/MathFX?style=for-the-badge
 [ISS_LINK]: https://img.shields.io/github/issues/Falcion/MathFX?style=for-the-badge
-[LCN_LINK]: https://img.shields.io/github/license/Falcion/MathFX?style=for-the-badge
+[LCN_LINK]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
 [CMM_LINK]: https://img.shields.io/github/commit-activity/m/Falcion/MathFX?style=for-the-badge
 [DWN_LINK]: https://img.shields.io/nuget/dt/MathFX?style=for-the-badge
 
