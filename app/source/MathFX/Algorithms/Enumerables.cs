@@ -57,6 +57,14 @@
             return Primes;
         }
 
+        /// <summary>
+        ///     Function of decomposing a number into its prime factors
+        /// </summary>
+        /// 
+        /// <returns>
+        ///     A set of integers hashes: array with no repeats of exclusive values of prime factors
+        /// </returns>
+        /// 
         public static HashSet<int> Factorization(int N)
         {
             HashSet<int> Primes = new HashSet<int>();
@@ -78,6 +86,14 @@
             return Primes;
         }
 
+        /// <summary>
+        ///     Function generating string with digits to given pos of constant PI
+        /// </summary>
+        /// 
+        /// <returns>
+        ///     A string of digits of given range of constant PI
+        /// </returns>
+        /// 
         public static string PointsPI(int digit)
         {
             double DECIMAL = (16 * Math.Atan(0.2) - 4 * Math.Atan(1 / 239));
