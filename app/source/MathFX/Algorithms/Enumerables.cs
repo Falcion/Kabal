@@ -3,6 +3,7 @@
 
     public static class Enumerables
     {
+
         /// <summary>
         ///     Function generating a fibonacci's number to given one
         /// </summary>
@@ -101,6 +102,16 @@
             string DIGs = Convert.ToString(Math.Round(DECIMAL, digit));
 
             return DIGs;
+        }
+
+        public static HashSet<int> Eratosthenes()
+        {
+            return new HashSet<int>();
+        }
+
+        public static HashSet<int> Collatz()
+        {
+            return new HashSet<int>();
         }
     }
 }

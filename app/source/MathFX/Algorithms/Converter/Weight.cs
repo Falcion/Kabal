@@ -1,12 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MathFX.Algorithms.Converter
+﻿namespace MathFX.Algorithms.Converter
 {
-    internal class Weight
+
+    public static class Weight
     {
+
+        ///
+        public static int IUS()
+        {
+            return 0;
+        }
+
+        public static int BUS()
+        {
+            return 0;
+        }
+
+        public static int AUS()
+        {
+            return 0;
+        }
     }
 }
