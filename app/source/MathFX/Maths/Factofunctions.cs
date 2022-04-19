@@ -6,6 +6,7 @@ namespace MathFX
 
     public static class Factofunctions
     {
+
         /// <summary>
         ///     A default factorial
         /// </summary>
