@@ -176,5 +176,36 @@
         /// </summary>
         /// 
         public const double P = 1.324717957244746D;
+
+        /// <summary>
+        ///     [√2]: Square root of two
+        /// </summary>
+        /// 
+        public const double SQRT2 = 1.414213562373095D;
+
+        /// <summary>
+        ///     [√3]: Square root of three
+        /// </summary>
+        /// 
+        public const double SQRT3 = 1.732050807568877D;
+
+        /// <summary>
+        ///     [√5]: Square root of five
+        /// </summary>
+        /// 
+        public const double SQRT5 = 2.236067977499789D;
+
+        /// <summary>
+        ///     [∛2]: Cube root of two
+        /// </summary>
+        ///
+        public const double CBRT2 = 1.259921049894873D;
+
+        /// <summary>
+        ///     [∛3]: Cube root of three
+        /// </summary>
+        ///
+        public const double CBRT3 = 1.442249570307408D;
+
     }
 }
