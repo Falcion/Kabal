@@ -1,5 +1,7 @@
 ﻿using CTM 
     = MathFX.Constants;
+using EMC
+    = MathFX.Algorithms.Enumerables;
 
 namespace MathFX
 {
@@ -15,14 +17,14 @@ namespace MathFX
         ///     Product of natural numbers from one to the given one
         /// </returns>
         /// 
-        public static uint Fct(uint N)
+        public static uint Fct(uint number)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
             uint result = 1;
 
-            for(uint i = 1; i < N; i++)
+            for(uint i = 1; i < number; i++)
             {
                 result *= i;
             }
@@ -38,14 +40,14 @@ namespace MathFX
         ///     Sum of digits' factorials of given number
         /// </returns>
         /// 
-        public static uint Foi(uint N)
+        public static uint Foi(uint number)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
             uint result = 0;
 
-            string digits = Convert.ToString(N);
+            string digits = Convert.ToString(number);
 
             foreach(char digit in digits)
                 result += Fct(Convert.ToUInt32(digit));
@@ -61,14 +63,14 @@ namespace MathFX
         ///     Product of digits' factorials of given number
         /// </returns>
         /// 
-        public static uint Foi2(uint N)
+        public static uint Foi2(uint number)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
             uint result = 0;
 
-            string digits = Convert.ToString(N);
+            string digits = Convert.ToString(number);
 
             foreach (char digit in digits)
                 result *= Fct(Convert.ToUInt32(digit));
@@ -84,14 +86,14 @@ namespace MathFX
         ///      Product of natural numbers' factorials from one to the given one
         /// </returns>
         /// 
-        public static ulong Sft(uint N)
+        public static ulong Sft(uint number)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
             uint result = 1;
 
-            for (uint i = 1; i < N; i++)
+            for (uint i = 1; i < number; i++)
             {
                 result *= Fct(i);
             }
@@ -107,14 +109,14 @@ namespace MathFX
         ///      Product of natural numbers' factorials from one to the given one
         /// </returns>
         /// 
-        public static ulong Hft(uint N)
+        public static ulong Hft(uint number)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
             uint result = 1;
 
-            for (uint i = 1; i < N; i++)
+            for (uint i = 1; i < number; i++)
             {
                 /*
                  *  Creating a 32-bit unsigned integer value as clone of current result value,
@@ -143,23 +145,23 @@ namespace MathFX
         ///     Product of natural numbers from one to the given one with the same parity as given
         /// </returns>
         /// 
-        public static uint Dft(uint N)
+        public static uint Dft(uint number)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
             uint result = 1;
 
-            if (N % 2 == 0)
+            if (number % 2 == 0)
             {
                 result *= 2;
 
-                for (uint i = 2; i <= N - 2; i += 2)
+                for (uint i = 2; i <= number - 2; i += 2)
                     result *= i;
             }
             else
             {
-                for (uint i = 1;(i <= N && i % 2 == 1); i++)
+                for (uint i = 1;(i <= number && i % 2 == 1); i++)
                     result *= i;
             }
 
@@ -174,29 +176,29 @@ namespace MathFX
         ///     Product of natural numbers from one to the given one which are could be multiplied by multiple number
         /// </returns>
         /// 
-        public static uint Mft(uint N, uint M)
+        public static uint Mft(uint number, uint multiple)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
-            switch(M)
+            switch(multiple)
             {
                 case 0:
                     throw new DivideByZeroException();
 
                 case 1:
-                    return Fct(N);
+                    return Fct(number);
 
                 case 2:
-                    return Dft(N);
+                    return Dft(number);
             }
 
-            if (M >= N)
+            if (multiple >= number)
                 throw new ArithmeticException();
 
             uint result = 1;
 
-            for (uint i = 0; (i <= N && i % M == 0); i++)
+            for (uint i = 0; (i <= number && i % multiple == 0); i++)
                 result *= i;
 
             return result;
@@ -210,17 +212,17 @@ namespace MathFX
         ///     Result of dividing of a number's factorial by the factorial of difference between the given number and the coefficient
         /// </returns>
         /// 
-        public static uint Dft(uint N, uint K)
+        public static uint Dft(uint number, uint increment)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
-            if (K == 0 || K == N)
+            if (increment == 0 || increment == number)
                 throw new ArithmeticException();
 
-            uint result = Fct(N);
+            uint result = Fct(number);
 
-            result /= Fct(N - K);
+            result /= Fct(number - increment);
 
             return result;
         }
@@ -233,18 +235,18 @@ namespace MathFX
         ///     Result of dividing a high-expression's factorial: more about it in documentation
         /// </returns>
         /// 
-        public static uint Ift(uint N, uint K)
+        public static uint Ift(uint number, uint increment)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
-            if (K == 0 || K == N)
+            if (increment == 0 || increment == number)
                 throw new ArithmeticException();
 
             uint result 
-                    = Fct(N+K-1);
+                    = Fct(number+increment-1);
 
-            result /= Fct(N - 1);
+            result /= Fct(number - 1);
 
             return result;
         }
@@ -257,37 +259,17 @@ namespace MathFX
         ///     Product of primes in range from one to given number
         /// </returns>
         /// 
-        public static uint Prm(uint N)
+        public static uint Prm(uint number)
         {
-            uint PRIMES_RANGE = N * N;
 
-            if (N == 0 || N == 1)
+            if (number == 0 || number == 1)
                 return 1;
 
-            List<uint> Primes = new List<uint>();
-
-            bool IS_PRIME = true;
-
-            for(uint i = 0; i < N * 4; i++)
-            {
-                for(uint j = 2; j < N * 4; j++)
-                {
-                    if(i != j && i % j == 0)
-                    {
-                        IS_PRIME = false;
-                        break;
-                    }
-                }
-
-                if(IS_PRIME)
-                    Primes.Add(i);
-
-                IS_PRIME = true;
-            }
+            List<uint> Primes = EMC.Primes(number);
 
             uint result = 1;
 
-            for (int i = 0; i < N; i++)
+            for (int i = 0; i < number; i++)
                 result *= Primes[i];
 
             return result;
@@ -301,9 +283,9 @@ namespace MathFX
         ///     Product of first fibonacci's numbers in range from one to given number 
         /// </returns>
         /// 
-        public static uint Fbn(uint N)
+        public static uint Fbn(uint number)
         {
-            if (N == 0)
+            if (number == 0)
                 return 1;
 
             uint result = 1;
@@ -313,12 +295,9 @@ namespace MathFX
              * for algorithm setup and its initial work.
              */
 
-            List<uint> Fibbonaci = new List<uint>() { 1, 1 };
+            List<uint> Fibbonaci = EMC.Fibonacci(number);
 
-            for(int i = 3; i <= N; i++)
-                Fibbonaci.Add(Fibbonaci[i - 2] + Fibbonaci[i - 3]);
-
-            for(int i = 0; i < N; i++)
+            for(int i = 0; i < number; i++)
                 result *= Fibbonaci[i];
 
             return result;
@@ -332,9 +311,9 @@ namespace MathFX
         ///     Number of disorder or its permutations without points
         /// </returns>
         /// 
-        public static UInt64 Sbf(uint N)
+        public static UInt64 Sbf(uint number)
         {
-            if (N == 0 || N == 1)
+            if (number == 0 || number == 1)
                 return 0;
 
             /*
@@ -342,7 +321,7 @@ namespace MathFX
              * faster calcs without garbaging the RAM.
              */
 
-            return Convert.ToUInt64(Fct(N) / CTM.E);
+            return Convert.ToUInt64(Fct(number) / CTM.E);
         }
     }
 }
