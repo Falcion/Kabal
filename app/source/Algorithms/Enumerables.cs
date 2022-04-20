@@ -12,11 +12,12 @@
         ///     List of unsigned 32-bit integer values of fibonacci's order
         /// </returns>
         /// 
-        public static List<uint> Fibonacci(uint N)
+        public static List<uint> Fibonacci(uint number)
         {
+
             List<uint> Fibbonaci = new List<uint>() { 1, 1 };
 
-            for (int i = 3; i <= N; i++)
+            for (int i = 3; i <= number; i++)
                 Fibbonaci.Add(Fibbonaci[i - 2] + Fibbonaci[i - 3]);
 
             return Fibbonaci;
@@ -30,17 +31,16 @@
         ///     List of unsigned 32-bit integer values of primes
         /// </returns>
         /// 
-        public static List<uint> Primes(uint N)
+        public static List<uint> Primes(uint number)
         {
-            uint PRIMES_RANGE = N * N;
 
             List<uint> Primes = new List<uint>();
 
             bool IS_PRIME = true;
 
-            for (uint i = 0; i < N * 4; i++)
+            for (uint i = 0; i < number * 4; i++)
             {
-                for (uint j = 2; j < N * 4; j++)
+                for (uint j = 2; j < number * 4; j++)
                 {
                     if (i != j && i % j == 0)
                     {
@@ -66,11 +66,12 @@
         ///     A set of integers hashes: array with no repeats of exclusive values of prime factors
         /// </returns>
         /// 
-        public static HashSet<int> Factorization(int N)
+        public static HashSet<int> Factorization(int number)
         {
-            HashSet<int> Primes = new HashSet<int>();
 
-            int QR = N;
+            HashSet<int> Primes = new();
+
+            int QR = number;
 
             for(int i = 2; i <= QR; i++)
             {
@@ -97,6 +98,7 @@
         /// 
         public static string PointsPI(int digit)
         {
+
             double DECIMAL = (16 * Math.Atan(0.2) - 4 * Math.Atan(1 / 239));
 
             string DIGs = Convert.ToString(Math.Round(DECIMAL, digit));
@@ -104,14 +106,71 @@
             return DIGs;
         }
 
-        public static HashSet<int> Eratosthenes()
+        /// <summary>
+        ///     Function of sieve of Eratosthenes about finding primes under ten millions
+        /// </summary>
+        /// 
+        /// <returns>
+        ///     List of 32-bit integer values of primes
+        /// </returns>
+        /// 
+        public static List<int> Eratosthenes(int limit)
         {
-            return new HashSet<int>();
+
+            bool[] sieve = new bool[++limit];
+
+            List<int> Primes = new List<int>(++limit);
+
+            int P = 2;
+
+            while(P * P <= limit)
+            {
+                sieve[P * P] = true;
+
+                int multiple = P * P;
+
+                while(multiple <= limit)
+                {
+                    sieve[multiple] = true;
+                    multiple += P;
+                }
+
+                for(int i = P + 1; i <= limit; i++)
+                {
+                    if(!sieve[i])
+                    {
+                        P = i;
+                        break;
+                    }
+                }
+            }
+
+            for(int i = 0; i <= limit; i++)
+            {
+                if(!sieve[i])
+                    Primes.Add(i);
+            }
+
+            return Primes;
         }
 
-        public static HashSet<int> Collatz()
+        /// <summary>
+        ///     An Function of Collatz' recursive conjecture algorithm
+        /// </summary>
+        /// 
+        /// <returns>
+        ///     A 32-bit integer value representing number of steps to get unity according to the Collatz hypothesis
+        /// </returns>
+        /// 
+        public static int Collatz(int number)
         {
-            return new HashSet<int>();
+
+            if (number == 1)
+                return 0;
+            else if (number % 2 == 0)
+                return 1 + Collatz(number % 2);
+            else
+                return 1 + Collatz(number * 3 + 1);
         }
     }
 }
