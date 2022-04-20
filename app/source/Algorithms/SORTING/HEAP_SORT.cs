@@ -4,7 +4,7 @@
     public static class HEAP_SORT
     {
 
-        public static int[] H_SORT(int[] arr)
+        public static int[] SORT(int[] arr)
         {
             int heaps = arr.Length;
 
@@ -15,10 +15,7 @@
 
             for(int i = heaps - 1; i >= 0; i--)
             {
-                int adjuster = arr[0];
-
-                arr[0] = arr[i];
-                arr[i] = adjuster;
+                (arr[i], arr[0]) = (arr[0], arr[i]);
 
                 HEAPIFY(arr, i, 0);
             }
@@ -41,10 +38,7 @@
 
             if(LG != Q)
             {
-                int SWAP = arr[Q];
-
-                arr[Q] = arr[LG];
-                arr[LG] = SWAP;
+                (arr[LG], arr[Q]) = (arr[Q], arr[LG]);
 
                 HEAPIFY(arr, heaps, LG);
             }

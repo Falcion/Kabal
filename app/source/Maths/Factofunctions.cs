@@ -244,7 +244,7 @@ namespace MathFX
                 throw new ArithmeticException();
 
             uint result 
-                    = Fct(number+increment-1);
+                    = Fct(number + increment - 1);
 
             result /= Fct(number - 1);
 

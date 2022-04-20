@@ -4,12 +4,10 @@
     public static class MERGE_SORT
     {
 
-        public static int[] M_SORT(int[] arr)
+        public static int[] SORT(int[] arr)
         {
             int[] lft,
                   rgt;
-
-            int[] res = new int[arr.Length];
 
             int middle = arr.Length / 2;
 
@@ -32,10 +30,10 @@
                 X++;
             }
 
-            lft = M_SORT(lft);
-            rgt = M_SORT(rgt);
+            lft = SORT(lft);
+            rgt = SORT(rgt);
 
-            res = MERGE(lft, rgt);
+            int[] res = MERGE(lft, rgt);
 
             return res;
         }

@@ -20,7 +20,7 @@
             {
                 int middle = length / 2;
 
-                string lft = input.Substring(0, middle);
+                string lft = input[..middle];
                 string rft = input.Substring(middle + 1, length - middle - 1);
 
                 if (lft == Reverse(rft))
@@ -32,8 +32,8 @@
             {
                 int heaps = length / 2;
 
-                string lft = input.Substring(0, heaps);
-                string rft = input.Substring(heaps, length - heaps);
+                string lft = input[..heaps];
+                string rft = input[heaps..length];
 
                 if (lft == Reverse(rft))
                     return true;

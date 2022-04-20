@@ -3,7 +3,7 @@
 
     public static class BUBBLE_SORT
     {
-        public static int[] B_SORT(int[] arr)
+        public static int[] SORT(int[] arr)
         {
             bool tag = true;
 
