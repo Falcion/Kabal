@@ -4,4 +4,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Add-on\Converter\" />
+    <Folder Include="Maths\RATIO_INT\" />
+    <Folder Include="Maths\RATIO_STRING\" />
+    <Folder Include="MVM\" />
+  </ItemGroup>
 </Project>

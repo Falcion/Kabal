@@ -15,7 +15,7 @@
         public static List<uint> Fibonacci(uint number)
         {
 
-            List<uint> Fibbonaci = new List<uint>() { 1, 1 };
+            List<uint> Fibbonaci = new() { 1, 1 };
 
             for (int i = 3; i <= number; i++)
                 Fibbonaci.Add(Fibbonaci[i - 2] + Fibbonaci[i - 3]);
@@ -34,7 +34,7 @@
         public static List<uint> Primes(uint number)
         {
 
-            List<uint> Primes = new List<uint>();
+            List<uint> Primes = new();
 
             bool IS_PRIME = true;
 
@@ -119,7 +119,7 @@
 
             bool[] sieve = new bool[++limit];
 
-            List<int> Primes = new List<int>(++limit);
+            List<int> Primes = new(++limit);
 
             int P = 2;
 

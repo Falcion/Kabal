@@ -43,6 +43,71 @@
         }
 
         /// <summary>
+        ///     Function pathfinding the longest substring of palindrome
+        /// </summary>
+        /// 
+        /// <returns>
+        ///     A substring from given one
+        /// </returns>
+        public static string PalindromeST(string input)
+        {
+            if (input.Length <= 1)
+                return input;
+
+            int length = input.Length;
+
+            int MAX = 1;
+
+            bool[,] DP = new bool[length, length];
+
+            string adj = "";
+
+            for(int i = 0; i < length; i++)
+                for(int j = 0; j < length - 1; j++)
+                {
+                    int k = i + j;
+
+                    if(input.ElementAt(j) == input.ElementAt(k) && (k - j <= 2 || DP[j+1, k-1]))
+                    {
+                        DP[j, k] = true;
+
+                        if(k - j + 1 > MAX)
+                        {
+                            MAX = k - j + 1;
+
+                            adj = input.Substring(j, k++);
+                        }
+                    }
+                }
+
+            return adj;
+        }
+
+        /// <summary>
+        ///     Function parsing given raw path to systemized version of it
+        /// </summary>
+        /// 
+        /// <returns>
+        ///     Returns a string as converted path without double slashes
+        /// </returns>
+        public static string Path(string path)
+        {
+            if(!path.Contains('\\'))
+                return path;
+
+            if (!path.Contains('/'))
+                return path;
+
+            if (!path.Contains("\\\\"))
+                return path;
+
+            path = path.Replace("\\", "/");
+            path = path.Replace("\\\\", "/");
+
+            return path;
+        }
+
+        /// <summary>
         ///     Function counting latin vowels in given input
         /// </summary>
         /// 
