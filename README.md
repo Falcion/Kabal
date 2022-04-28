@@ -147,6 +147,32 @@ If you want to use this project in your own, just install it in and reference it
 <br />
 <p align="right"><a href="#top" title="Back to the top">↺</a></p>
 
+<!--
+    ROADMAP of the project
+        List of potential functions in future versions of project: no garanties
+ -->
+### Roadmap
+
+- [ ] Write a converter module.
+- [ ] Write a markdown machine — pasting HTML as MD and backwards.
+- [ ] Implement new graphs algorithms and other algorithms alike DFS.
+- [ ] Write a rationalization of expressions module.
+  - [ ] Rationalization to strings
+  - [ ] Rationalization to values
+- [ ] Module about generating random numbers, strings, objects.
+  - [ ] Experimental integration with RANDOM.ORG API.
+- [ ] ... different variation of functions: will be written in future.
+- [ ] Publish new version of project.
+- [ ] Write a changelog.
+- [ ] Write a "soft-read" documentation.  
+
+For a full list of proposed features and fixes see the: [open issues of repository](OPEN_ISSUES).
+
+[OPEN_ISSUES]: https://github.com/Falcion/MathFX/issues/
+
+<br />
+<p align="right"><a href="#top" title="Back to the top">↺</a></p>
+
 ### Contributing
 
 Contributions are what make open source community such an interest place to be in - so any form of contribution are greatly appreciated.
@@ -197,7 +223,7 @@ Developer could be contacted with his personal e-mail:
 
 - <a href="mailto: io.falcion@outlook.com">Outlook E-mail</a>
 
-Project link is pinned at this repository.
+Project ref is pinned at this repository.
 
 <br />
 <p align="right"><a href="#top" title="Back to the top">↺</a></p>
