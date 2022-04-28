@@ -92,7 +92,7 @@
         /// </returns>
         public static string Path(string path)
         {
-            if(!path.Contains('\\'))
+            if (!path.Contains('\\'))
                 return path;
 
             if (!path.Contains('/'))

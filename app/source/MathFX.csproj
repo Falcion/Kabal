@@ -8,6 +8,6 @@
     <Folder Include="Add-on\Converter\" />
     <Folder Include="Maths\RATIO_INT\" />
     <Folder Include="Maths\RATIO_STRING\" />
-    <Folder Include="MVM\" />
+    <Folder Include="Add-on\MVM\" />
   </ItemGroup>
 </Project>
