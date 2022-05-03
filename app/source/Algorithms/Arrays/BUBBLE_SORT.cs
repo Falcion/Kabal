@@ -1,4 +1,4 @@
-﻿namespace MathFX
+﻿namespace MathFX.Algorithms
 {
 
     public static class BUBBLE_SORT

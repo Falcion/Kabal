@@ -1,4 +1,4 @@
-﻿namespace MathFX
+﻿namespace MathFX.Maths
 {
 
     public static class Constants

@@ -1,9 +1,9 @@
 ﻿using CTM 
-    = MathFX.Constants;
+    = MathFX.Maths.Constants;
 using EMC
     = MathFX.Algorithms.Enumerables;
 
-namespace MathFX
+namespace MathFX.Maths
 {
 
     public static class Factofunctions
@@ -212,7 +212,7 @@ namespace MathFX
         ///     Result of dividing of a number's factorial by the factorial of difference between the given number and the coefficient
         /// </returns>
         /// 
-        public static uint Dft(uint number, uint increment)
+        public static uint Dff(uint number, uint increment)
         {
             if (number == 0)
                 return 1;
