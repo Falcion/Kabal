@@ -14,30 +14,30 @@
 
 <!-- Shields sources -->
 
-[CLT_LINK]: https://img.shields.io/github/contributors/Falcion/MathFX?style=for-the-badge
-[FRK_LINK]: https://img.shields.io/github/forks/Falcion/MathFX?style=for-the-badge
-[STR_LINK]: https://img.shields.io/github/stars/Falcion/MathFX?style=for-the-badge
-[ISS_LINK]: https://img.shields.io/github/issues/Falcion/MathFX?style=for-the-badge
+[CLT_LINK]: https://img.shields.io/github/contributors/Falcion/Karamath?style=for-the-badge
+[FRK_LINK]: https://img.shields.io/github/forks/Falcion/Karamath?style=for-the-badge
+[STR_LINK]: https://img.shields.io/github/stars/Falcion/Karamath?style=for-the-badge
+[ISS_LINK]: https://img.shields.io/github/issues/Falcion/Karamath?style=for-the-badge
 [LCN_LINK]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
-[CMM_LINK]: https://img.shields.io/github/commit-activity/m/Falcion/MathFX?style=for-the-badge
-[DWN_LINK]: https://img.shields.io/nuget/dt/MathFX?style=for-the-badge
+[CMM_LINK]: https://img.shields.io/github/commit-activity/m/Falcion/Karamath?style=for-the-badge
+[DWN_LINK]: https://img.shields.io/nuget/dt/Karamath?style=for-the-badge
 
 <!-- Shields hyperlinks -->
 
-[CLT_U_LINK]: https://github.com/Falcion/MathFX/graphs/contributors
-[FRK_U_LINK]: https://github.com/Falcion/MathFX/network/members
-[STR_U_LINK]: https://github.com/Falcion/MathFX/stargazers
-[ISS_U_LINK]: https://github.com/Falcion/MathFX/issues
-[LCN_U_LINK]: https://github.com/Falcion/MathFX/blob/default/LICENSE.md
-[CMM_U_LINK]: https://github.com/Falcion/MathFX/commits/
-[DWN_U_LINK]: https://www.nuget.org/packages/MathFX/
+[CLT_U_LINK]: https://github.com/Falcion/Karamath/graphs/contributors
+[FRK_U_LINK]: https://github.com/Falcion/Karamath/network/members
+[STR_U_LINK]: https://github.com/Falcion/Karamath/stargazers
+[ISS_U_LINK]: https://github.com/Falcion/Karamath/issues
+[LCN_U_LINK]: https://github.com/Falcion/Karamath/blob/default/LICENSE.md
+[CMM_U_LINK]: https://github.com/Falcion/Karamath/commits/
+[DWN_U_LINK]: https://www.nuget.org/packages/Karamath/
 
 <!-- Logo in README and different stuff -->
 
 <br />
 <div align="center">
-    <img src="./.resources/images/icon.png" alt="Icon" width="168" height="168">
-    <h3 align="center">MathFX</h3>
+    <img src="./.resources/images/icon.png" alt="Icon" width="128" height="128">
+    <h3 align="center">Karamath</h3>
     <!---->
     <p align="center">
     Making things easier.
@@ -45,11 +45,11 @@
     <a href="https://github.com/"><strong>Explore the documentation</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Falcion/MathFX/issues">Report a bug</a>
+    <a href="https://github.com/Falcion/Karamath/issues">Report a bug</a>
     / 
-    <a href="https://github.com/Falcion/MathFX/issues">Feature request</a>
+    <a href="https://github.com/Falcion/Karamath/issues">Feature request</a>
     / 
-    <a href="https://www.nuget.org/packages/MathFX/">Nuget Package</a>
+    <a href="https://www.nuget.org/packages/Karamath/">Nuget Package</a>
     </p>
 </div>
 
@@ -137,10 +137,11 @@ Project currently includes this:
     - Project could be useful if you want to learn some functions.
     - Project doesn't use some hyper intellectual formulas for calculations.
  -->
-- Rationalization module: returns a string format and integer value.
-- Different calcs of algebra.
-- Numbers factorizations.
-- And other enormous number of functions.
+- Useful algorithms which could be used even in simplest solutions or codes.
+- Universal converter of units.
+- Rationalization and theoretical math module: probabilities, math functions and etc.
+- Pseudo-random generator of different type objects.
+- Markdown-machine.
 
 If you want to use this project in your own, just install it in and reference it as namespace: nothing special.
 
@@ -153,22 +154,21 @@ If you want to use this project in your own, just install it in and reference it
  -->
 ### Roadmap
 
-- [ ] Write a converter module.
-- [ ] Write a markdown machine — pasting HTML as MD and backwards.
-- [ ] Implement new graphs algorithms and other algorithms alike DFS.
-- [ ] Write a rationalization of expressions module.
-  - [ ] Rationalization to strings
-  - [ ] Rationalization to values
-- [ ] Module about generating random numbers, strings, objects.
-  - [ ] Experimental integration with RANDOM.ORG API.
-- [ ] ... different variation of functions: will be written in future.
+- [x] Implement new graphs algorithms and other algorithms alike DFS.
+- [x] Write a rationalization of expressions module.
+  - [x] Rationalization to strings
+  - [x] Rationalization to values
+- [x] Module about generating random numbers, strings, objects.
+- [x] ... different variation of functions: will be written in future.
 - [ ] Publish new version of project.
-- [ ] Write a changelog.
+- [x] Write a changelog.
 - [ ] Write a "soft-read" documentation.  
+
+Features tagged with "¹" are moved to other repositories/projects due different reasons: this tasks will be removed from repository unless they will be published in their own.
 
 For a full list of proposed features and fixes see the: [open issues of repository](OPEN_ISSUES).
 
-[OPEN_ISSUES]: https://github.com/Falcion/MathFX/issues/
+[OPEN_ISSUES]: https://github.com/Falcion/Karamath/issues/
 
 <br />
 <p align="right"><a href="#top" title="Back to the top">↺</a></p>
