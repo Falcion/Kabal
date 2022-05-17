@@ -14,13 +14,13 @@
 
 <!-- Shields sources -->
 
-[CLT_LINK]: https://img.shields.io/github/contributors/Falcion/Karamath?style=for-the-badge/
-[FRK_LINK]: https://img.shields.io/github/forks/Falcion/Karamath?style=for-the-badge/
-[STR_LINK]: https://img.shields.io/github/stars/Falcion/Karamath?style=for-the-badge/
-[ISS_LINK]: https://img.shields.io/github/issues/Falcion/Karamath?style=for-the-badge/
-[LCN_LINK]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge/
+[CLT_LINK]: https://img.shields.io/github/contributors/Falcion/Karamath?style=for-the-badge
+[FRK_LINK]: https://img.shields.io/github/forks/Falcion/Karamath?style=for-the-badge
+[STR_LINK]: https://img.shields.io/github/stars/Falcion/Karamath?style=for-the-badge
+[ISS_LINK]: https://img.shields.io/github/issues/Falcion/Karamath?style=for-the-badge
+[LCN_LINK]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
 [CMM_LINK]: https://img.shields.io/github/commit-activity/m/Falcion/Karamath?style=for-the-badge
-[DWN_LINK]: https://img.shields.io/nuget/dt/Karamath?style=for-the-badge/
+[DWN_LINK]: https://img.shields.io/nuget/dt/Karamath?style=for-the-badge
 
 <!-- Shields hyperlinks -->
 
@@ -45,9 +45,9 @@
     <a href="https://github.com/"><strong>Explore the documentation</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Falcion/Karamath/issues/">Report a bug</a>
+    <a href="https://github.com/Falcion/Karamath/issues/new?assignees=Falcion&labels=Error&template=issue-about-bug-.md&title=ERROR%3A+Enter+the+header+of+an+issue.">Report a bug</a>
     / 
-    <a href="https://github.com/Falcion/Karamath/issues/">Feature request</a>
+    <a href="https://github.com/Falcion/Karamath/issues/new?assignees=Falcion&labels=Feature+request&template=feature-request-.md&title=FEATURE%3A+Enter+the+header+of+an+issue.">Feature request</a>
     / 
     <a href="https://www.nuget.org/packages/Karamath/">Nuget Package</a>
     </p>
