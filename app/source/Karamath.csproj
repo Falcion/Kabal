@@ -5,6 +5,36 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <Version>1.0.1-rc</Version>
+    <Description>.NET class-library with arranged functions and only one purpose: make things in programming easier. </Description>
+    <Copyright>MIT License</Copyright>
+    <Product>Karamath</Product>
+    <Authors>Falcion</Authors>
+    <PackageId>Karamath</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/Falcion/Karamath/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Falcion/Karamath/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>readme-package.md</PackageReadmeFile>
+    <PackageReleaseNotes>This update of the project is its initial and in essence is a version of the refactoring of the same project — for arrangement of changes see the specified changelog update.</PackageReleaseNotes>
+	<PackageLicenseFile>license.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include=".resources\files\readme-package.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include=".resources\images\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+	<None Include=".resources\files\license.md">
+	  <Pack>True</Pack>
+	  <PackagePath>\</PackagePath>
+	</None> 
+  </ItemGroup>
 
 </Project>

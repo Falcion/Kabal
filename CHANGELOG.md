@@ -29,6 +29,7 @@ The format is based on and project adheres to:
 - Deleted the algorithms of arrays sortings.
 - Recreated a namespace for graphs modules.
 - Implemented more advanced and better for reading constants module.
+- Renamed project for its new style and global refactoring.
 - Icon of project and its repository's environment.
 
 #### Fixed:

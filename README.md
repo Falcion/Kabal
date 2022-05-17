@@ -14,21 +14,21 @@
 
 <!-- Shields sources -->
 
-[CLT_LINK]: https://img.shields.io/github/contributors/Falcion/Karamath?style=for-the-badge
-[FRK_LINK]: https://img.shields.io/github/forks/Falcion/Karamath?style=for-the-badge
-[STR_LINK]: https://img.shields.io/github/stars/Falcion/Karamath?style=for-the-badge
-[ISS_LINK]: https://img.shields.io/github/issues/Falcion/Karamath?style=for-the-badge
-[LCN_LINK]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge
+[CLT_LINK]: https://img.shields.io/github/contributors/Falcion/Karamath?style=for-the-badge/
+[FRK_LINK]: https://img.shields.io/github/forks/Falcion/Karamath?style=for-the-badge/
+[STR_LINK]: https://img.shields.io/github/stars/Falcion/Karamath?style=for-the-badge/
+[ISS_LINK]: https://img.shields.io/github/issues/Falcion/Karamath?style=for-the-badge/
+[LCN_LINK]: https://img.shields.io/badge/license-MIT-green?style=for-the-badge/
 [CMM_LINK]: https://img.shields.io/github/commit-activity/m/Falcion/Karamath?style=for-the-badge
-[DWN_LINK]: https://img.shields.io/nuget/dt/Karamath?style=for-the-badge
+[DWN_LINK]: https://img.shields.io/nuget/dt/Karamath?style=for-the-badge/
 
 <!-- Shields hyperlinks -->
 
-[CLT_U_LINK]: https://github.com/Falcion/Karamath/graphs/contributors
-[FRK_U_LINK]: https://github.com/Falcion/Karamath/network/members
-[STR_U_LINK]: https://github.com/Falcion/Karamath/stargazers
-[ISS_U_LINK]: https://github.com/Falcion/Karamath/issues
-[LCN_U_LINK]: https://github.com/Falcion/Karamath/blob/default/LICENSE.md
+[CLT_U_LINK]: https://github.com/Falcion/Karamath/graphs/contributors/
+[FRK_U_LINK]: https://github.com/Falcion/Karamath/network/members/
+[STR_U_LINK]: https://github.com/Falcion/Karamath/stargazers/
+[ISS_U_LINK]: https://github.com/Falcion/Karamath/issues/
+[LCN_U_LINK]: https://github.com/Falcion/Karamath/blob/default/LICENSE.md/
 [CMM_U_LINK]: https://github.com/Falcion/Karamath/commits/
 [DWN_U_LINK]: https://www.nuget.org/packages/Karamath/
 
@@ -45,9 +45,9 @@
     <a href="https://github.com/"><strong>Explore the documentation</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Falcion/Karamath/issues">Report a bug</a>
+    <a href="https://github.com/Falcion/Karamath/issues/">Report a bug</a>
     / 
-    <a href="https://github.com/Falcion/Karamath/issues">Feature request</a>
+    <a href="https://github.com/Falcion/Karamath/issues/">Feature request</a>
     / 
     <a href="https://www.nuget.org/packages/Karamath/">Nuget Package</a>
     </p>
@@ -121,7 +121,7 @@ Installation through «Nuget» with help of VS:
 
 If you use a different IDE from VS, read this article: [using new commands in .NET](STACKOVERFLOW).
 
-[STACKOVERFLOW]: https://stackoverflow.com/questions/40675162/install-a-nuget-package-in-visual-studio-code
+[STACKOVERFLOW]: https://stackoverflow.com/questions/40675162/install-a-nuget-package-in-visual-studio-code/
 
 <br />
 <p align="right"><a href="#top" title="Back to the top">↺</a></p>
@@ -160,11 +160,9 @@ If you want to use this project in your own, just install it in and reference it
   - [x] Rationalization to values
 - [x] Module about generating random numbers, strings, objects.
 - [x] ... different variation of functions: will be written in future.
-- [ ] Publish new version of project.
+- [x] Publish new version of project.
 - [x] Write a changelog.
 - [ ] Write a "soft-read" documentation.  
-
-Features tagged with "¹" are moved to other repositories/projects due different reasons: this tasks will be removed from repository unless they will be published in their own.
 
 For a full list of proposed features and fixes see the: [open issues of repository](OPEN_ISSUES).
 
@@ -194,7 +192,7 @@ For one-single file contributioning, use a more quicker way without forking the 
 
 More about it in this article: [synching a one-single file fork](DCT_LINK).
 
-[DCT_LINK]: https://help.github.com/articles/syncing-a-fork
+[DCT_LINK]: https://help.github.com/articles/syncing-a-fork/
 
 <br />
 <p align="right"><a href="#top" title="Back to the top">↺</a></p>
@@ -210,7 +208,7 @@ Project is being distributed under: [MIT License](./LICENSE.md).
  -->
 Project's README made with help of: [a README pattern by Othneil Drew](REF).
 
-[REF]: https://github.com/othneildrew/Best-README-Template
+[REF]: https://github.com/othneildrew/Best-README-Template/
 
 <br />
 <p align="right"><a href="#top" title="Back to the top">↺</a></p>
@@ -234,13 +232,13 @@ Project ref is pinned at this repository.
 
 List of helpful and credited projects/resources.
 
-- [README pattern](README).
+- [README pattern](README)
 - [.GITIGNORE](GITIGN)
-- [.GITATTRIBUTES](GITATT).
-- [.NET repository](.NET).
+- [.GITATTRIBUTES](GITATT)
+- [.NET repository](.NET)
 
 [README]: https://github.com/othneildrew/Best-README-Template/
-[GITIGN]: https://github.com/github/gitignore
+[GITIGN]: https://github.com/github/gitignore/
 [GITATT]: https://github.com/alexkaratarakis/gitattributes/
 [.NET]: https://github.com/dotnet/core/
 
