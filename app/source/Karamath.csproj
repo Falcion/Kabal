@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
-    <Version>1.0.1-rc</Version>
+    <Version>1.0.2</Version>
     <Description>.NET class-library with arranged functions and only one purpose: make things in programming easier. </Description>
     <Copyright>MIT License</Copyright>
     <Product>Karamath</Product>
@@ -35,6 +35,10 @@
 	  <Pack>True</Pack>
 	  <PackagePath>\</PackagePath>
 	</None> 
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Algorithms\Arrays\" />
   </ItemGroup>
 
 </Project>
