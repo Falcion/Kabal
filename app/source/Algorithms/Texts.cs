@@ -1,23 +1,19 @@
 namespace Karamath.Algorithms {
 
     /// <summary>
-    ///     Library module responsible for working and assembling different strings
+    /// Library module responsible for working and assembling different strings
     /// </summary>
-    /// 
     public static class Texts {
 
         /// <summary>
-        ///     Checks the word on palindrome case   
+        /// Checks the word on palindrome case   
         /// </summary>
-        /// 
         /// <param name="amx">
-        ///     A string which will be checked on palindrome case
+        /// A string which will be checked on palindrome case
         /// </param>
-        /// 
         /// <returns>
-        ///     Boolean value representing a status of palindrome case
+        /// Boolean value representing a status of palindrome case
         /// </returns>
-        /// 
         public static bool Palindrome(string amx) { 
 
             int length = amx.Length;
@@ -48,17 +44,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Pathfinds the most longest substring of palindrome case
+        /// Pathfinds the most longest substring of palindrome case
         /// </summary>
-        /// 
         /// <param name="amx">
-        ///     A string which will substring palindrome
+        /// A string which will substring palindrome
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing substring of palindrome case with biggest length
+        /// A string representing substring of palindrome case with biggest length
         /// </returns>
-        /// 
         public static string PalindromeST(string amx) {
 
             if(amx.Length <= 1)
@@ -94,27 +87,23 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Checks two strings on anagram case  
+        /// Checks two strings on anagram case  
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A first string which will be checked on anagram case
+        /// A first string which will be checked on anagram case
         /// </param>
         /// <param name="bmx">
-        ///     A second string which will be checked on anagram case
+        /// A second string which will be checked on anagram case
         /// </param>
-        /// 
         /// <returns>
-        ///     Boolean value representing a status of anagram case
+        /// Boolean value representing a status of anagram case
         /// </returns>
-        /// 
         public static bool Anagram(string amx, string bmx) {
             
             int ctamx = amx.Length,
@@ -135,24 +124,20 @@ namespace Karamath.Algorithms {
 
 
         /// <summary>
-        ///     Checks string on pangram case  
+        /// Checks string on pangram case  
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/pangram-checking/">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/pangram-checking/">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A string which will be checked on pangram case
+        /// A string which will be checked on pangram case
         /// </param>
-        /// 
         /// <returns>
-        ///     Boolean value representing a status of pangram case
+        /// Boolean value representing a status of pangram case
         /// </returns>
-        /// 
         public static bool Pangram(string amx) {
             
             /*
@@ -184,24 +169,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Checks string on ISBN case  
+        /// Checks string on ISBN case  
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/program-check-isbn/">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/program-check-isbn/">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A string which will be checked on ISBN case
+        /// A string which will be checked on ISBN case
         /// </param>
-        /// 
         /// <returns>
-        ///     Boolean value representing a status of ISBN case
+        /// Boolean value representing a status of ISBN case
         /// </returns>
-        /// 
         public static bool ISBN(string amx) {
 
             int length = amx.Length;
@@ -235,17 +216,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Parse non-parsed string of given path in correct format for .NET
+        /// Parse non-parsed string of given path in correct format for .NET
         /// </summary>
-        /// 
         /// <param name="stringify">
-        ///     A string representing non-parsed path
+        /// A string representing non-parsed path
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing parsed string of given path
+        /// A string representing parsed string of given path
         /// </returns>
-        /// 
         public static string Pathlify(string stringify) {
 
             if(!stringify.Contains('\\'))
@@ -264,17 +242,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Parse non-parsed string of given path in correct format for .NET
+        /// Parse non-parsed string of given path in correct format for .NET
         /// </summary>
-        /// 
         /// <param name="stringify">
-        ///     A string representing non-parsed path
+        /// A string representing non-parsed path
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing parsed string of given path
+        /// A string representing parsed string of given path
         /// </returns>
-        /// 
         public static string URLlify(string stringify) {
 
             if(!stringify.Contains(' '))
@@ -285,17 +260,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Counts vowels in given string
+        /// Counts vowels in given string
         /// </summary>
-        /// 
         /// <param name="stringify">
-        ///     A string in which function would count vowels
+        /// A string in which function would count vowels
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing count of vowels
+        /// A 32-bit integer value representing count of vowels
         /// </returns>
-        /// 
         public static int VowelsOf(string stringify) {
 
             string ALPHABET = "aAeEiIoOuU";
@@ -310,17 +282,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Counts consonants in given string
+        /// Counts consonants in given string
         /// </summary>
-        /// 
         /// <param name="stringify">
-        ///     A string in which function would count consonants
+        /// A string in which function would count consonants
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing count of consonants
+        /// A 32-bit integer value representing count of consonants
         /// </returns>
-        /// 
         public static int ConsonantsOf(string stringify) {
 
             string ALPHABET = "bBcCdDfFgGhHjJkKlLmMnNpPqQrRsStTvVwWxXyYzZ";
@@ -335,17 +304,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Counts words in given string
+        /// Counts words in given string
         /// </summary>
-        /// 
         /// <param name="stringify">
-        ///     A string in which function would count words
+        /// A string in which function would count words
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing count of words
+        /// A 32-bit integer value representing count of words
         /// </returns>
-        ///
         public static int WordsOf(string stringify) {
 
             string[] squash = stringify.Split(' ');
@@ -368,17 +334,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Reverses a given string with no excessive enumerables and parameters
+        /// Reverses a given string with no excessive enumerables and parameters
         /// </summary>
-        /// 
         /// <param name="stringify">
-        ///     A string which will be reversed by function
+        /// A string which will be reversed by function
         /// </param>
-        /// 
         /// <returns>
-        ///     A reversed string
+        /// A reversed string
         /// </returns>
-        /// 
         private static string RevCS(string stringify) {
 
             string res = "";
@@ -395,17 +358,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Sorts a given string with no excessive enumerables and parameters
+        /// Sorts a given string with no excessive enumerables and parameters
         /// </summary>
-        /// 
         /// <param name="stringify">
-        ///     A string which will be sorted by function
+        /// A string which will be sorted by function
         /// </param>
-        /// 
         /// <returns>
-        ///     A sorted string
+        /// A sorted string
         /// </returns>
-        ///
         public static string StringSORT(string stringify)
         {
             char[] chars = stringify.ToArray();

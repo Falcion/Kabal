@@ -6,30 +6,25 @@ using EMC
 namespace Karamath.Maths {
 
     /// <summary>
-    ///     Library module responsible for counting and factorial functions
+    /// Library module responsible for counting and factorial functions
     /// </summary>
-    /// 
     public static class Factofunctions {
 
         /// <summary>
-        ///     Calculates the default factorial from one to the given number range
+        /// Calculates the default factorial from one to the given number range
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Factorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Factorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 32-bit integer value representing the maximum range of factorial
+        /// An unsigned 32-bit integer value representing the maximum range of factorial
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the product of natural numbers from one to the given one
+        /// An unsigned 32-bit integer value representing the product of natural numbers from one to the given one
         /// </returns>
-        /// 
         public static uint Fct(uint max) {
             
             if(max == 0)
@@ -44,26 +39,21 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the default factorial from one to the given number range
+        /// Calculates the default factorial from one to the given number range
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Factorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Factorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 64-bit integer value representing the maximum range of factorial
+        /// An unsigned 64-bit integer value representing the maximum range of factorial
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 64-bit integer value representing the product of natural numbers from one to the given one
+        /// An unsigned 64-bit integer value representing the product of natural numbers from one to the given one
         /// </returns>
-        /// 
-        public static ulong Fct(ulong max)
-        {
+        public static ulong Fct(ulong max) {
 
             if (max == 0)
                 return 1;
@@ -77,27 +67,23 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the factorion depending on its order from digits of given number
+        /// Calculates the factorion depending on its order from digits of given number
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Factorion.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Factorion.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="number">
-        ///     An unsigned 32-bit integer value representing the given number for factorion
+        /// An unsigned 32-bit integer value representing the given number for factorion
         /// </param>
         /// <param name="order">
-        ///     A signed 8-bit integer value representing the order of factorion: first is about of sum when the second is product
+        /// A signed 8-bit integer value representing the order of factorion: first is about of sum when the second is product
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the sum or product of number's factorials of digits 
+        /// An unsigned 32-bit integer value representing the sum or product of number's factorials of digits 
         /// </returns>
-        /// 
         public static uint Foi(uint number, byte order) {
 
             if(number == 0)
@@ -124,24 +110,20 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the superfactorial from one to the given number range
+        /// Calculates the superfactorial from one to the given number range
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Superfactorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Superfactorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 64-bit integer value representing the maximum range of superfactorial
+        /// An unsigned 64-bit integer value representing the maximum range of superfactorial
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 64-bit integer value representing the product of factorials of natural numbers from one to the given one
+        /// An unsigned 64-bit integer value representing the product of factorials of natural numbers from one to the given one
         /// </returns>
-        /// 
         public static ulong Sft(ulong max) {
 
             if(max == 0)
@@ -156,24 +138,20 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the hyperfactorial from one to the given number range
+        /// Calculates the hyperfactorial from one to the given number range
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Hyperfactorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Hyperfactorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 64-bit integer value representing the maximum range of hyperfactorial
+        /// An unsigned 64-bit integer value representing the maximum range of hyperfactorial
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 64-bit integer value representing the product of superfactorials of natural numbers from one to the given one
+        /// An unsigned 64-bit integer value representing the product of superfactorials of natural numbers from one to the given one
         /// </returns>
-        /// 
         public static ulong Hft(ulong max) {
 
             if(max == 0)
@@ -201,24 +179,20 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the double factorial from one to the given number range
+        /// Calculates the double factorial from one to the given number range
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/DoubleFactorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/DoubleFactorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 32-bit integer value representing the maximum range of double factorial
+        /// An unsigned 32-bit integer value representing the maximum range of double factorial
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the product of numbers with the same parity as given number range
+        /// An unsigned 32-bit integer value representing the product of numbers with the same parity as given number range
         /// </returns>
-        /// 
         public static uint Dft(uint max) {
 
             if(max == 0)
@@ -245,20 +219,17 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the multiply factorial from one to the given number range and the coefficient of multiplicities
+        /// Calculates the multiply factorial from one to the given number range and the coefficient of multiplicities
         /// </summary>
-        /// 
         /// <param name="max">
-        ///     An unsigned 32-bit integer value representing the maximum range of multiple factorial
+        /// An unsigned 32-bit integer value representing the maximum range of multiple factorial
         /// </param>
         /// <param name="divisor">
-        ///     An unsigned 32-bit integer value representing the coefficient of multiplicities
+        /// An unsigned 32-bit integer value representing the coefficient of multiplicities
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the product of number which are multiples to given coefficient
+        /// An unsigned 32-bit integer value representing the product of number which are multiples to given coefficient
         /// </returns>
-        /// 
         public static uint Mft(uint max, uint divisor) {
 
             if(max == 0)
@@ -284,27 +255,23 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the falling factorial function from one to given number range and the coefficient of decreasing
+        /// Calculates the falling factorial function from one to given number range and the coefficient of decreasing
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/FallingFactorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/FallingFactorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 32-bit integer value representing the maximum range of falling factorial
+        /// An unsigned 32-bit integer value representing the maximum range of falling factorial
         /// </param>
         /// <param name="coef">
-        ///     An unsigned 32-bit integer value representing the coefficient of falling
+        /// An unsigned 32-bit integer value representing the coefficient of falling
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the result of strict formulae
+        /// An unsigned 32-bit integer value representing the result of strict formulae
         /// </returns>
-        /// 
         public static uint Fft(uint max, uint coef) {
 
             if(max == 0)
@@ -323,27 +290,23 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates the increasing factorial function from one to given number range and the coefficient of increasing
+        /// Calculates the increasing factorial function from one to given number range and the coefficient of increasing
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/RisingFactorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/RisingFactorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 32-bit integer value representing the maximum range of increasing factorial
+        /// An unsigned 32-bit integer value representing the maximum range of increasing factorial
         /// </param>
         /// <param name="coef">
-        ///     An unsigned 32-bit integer value representing the coefficient of increasing
+        /// An unsigned 32-bit integer value representing the coefficient of increasing
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the result of strict formulae
+        /// An unsigned 32-bit integer value representing the result of strict formulae
         /// </returns>
-        /// 
         public static uint Ift(uint max, uint coef) {
 
             if(max == 0)
@@ -362,24 +325,20 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates a primorial from prime numbers in range from one to the given number range
+        /// Calculates a primorial from prime numbers in range from one to the given number range
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Primorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Primorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 32-bit integer value representing the maximum range of primorial
+        /// An unsigned 32-bit integer value representing the maximum range of primorial
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the product of prime numbers in given range
+        /// An unsigned 32-bit integer value representing the product of prime numbers in given range
         /// </returns>
-        ///
         public static uint Prm(uint max) {
 
             if(max == 0)
@@ -425,24 +384,20 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates a fibonorial from Fibonacci's numbers in range from one to the given number range
+        /// Calculates a fibonorial from Fibonacci's numbers in range from one to the given number range
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Fibonorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Fibonorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="max">
-        ///     An unsigned 32-bit integer value representing the maximum range of fibonorial
+        /// An unsigned 32-bit integer value representing the maximum range of fibonorial
         /// </param>
-        /// 
         /// <returns>
-        ///     An unsigned 32-bit integer value representing the product of Fibonacci's numbers in given range
+        /// An unsigned 32-bit integer value representing the product of Fibonacci's numbers in given range
         /// </returns>
-        /// 
         public static uint Fbn(uint max) {
 
             if(max == 0)
@@ -469,24 +424,20 @@ namespace Karamath.Maths {
         }
 
         /// <summary>
-        ///     Calculates a subfactorial or a number of disorders of given number
+        /// Calculates a subfactorial or a number of disorders of given number
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this factofunction: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Subfactorial.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this factofunction: go to the 
+        /// <see href="https://mathworld.wolfram.com/Subfactorial.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A double type value representing the given number from which disorders would be calculated
+        /// A double type value representing the given number from which disorders would be calculated
         /// </param>
-        /// 
         /// <returns>
-        ///     A double type value representing the value of disorders count of given number
+        /// A double type value representing the value of disorders count of given number
         /// </returns>
-        /// 
         public static double Sbf(double amx) {
 
             if(amx == 0.0)

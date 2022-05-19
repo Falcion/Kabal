@@ -1,22 +1,22 @@
 namespace Karamath.Ratio.Integer {
 
+    /// <summary>
+    /// Library module responsible for rationalization of abs expressions in integers
+    /// </summary>
     public static class Abs {
 
         /// <summary>
-        ///     Calculates a rationalization of difference between two abs
+        /// Calculates a rationalization of difference between two abs
         /// </summary>
-        /// 
         /// <param name="fmx">
-        ///     A double value representing a number of first abs
+        /// A double value representing a number of first abs
         /// </param>
         /// <param name="gmx">
-        ///     A double value representing a number of second abs
+        /// A double value representing a number of second abs
         /// </param>
-        /// 
         /// <returns>
-        ///     A double value representing a rationalization's result
+        /// A double value representing a rationalization's result
         /// </returns>
-        /// 
         public static double RDBTM(double fmx, double gmx) {
 
             double res = 0;

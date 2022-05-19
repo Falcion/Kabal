@@ -1,29 +1,25 @@
 namespace Karamath.Ratio.Stringify {
 
     /// <summary>
-    ///     Library module responsible for rationalization of power function expressions in strings
+    /// Library module responsible for rationalization of power function expressions in strings
     /// </summary>
-    ///
     public static class Powers {
 
         /// <summary>
-        ///     Formalizes a rationalization of the difference of power function with the same base
+        /// Formalizes a rationalization of the difference of power function with the same base
         /// </summary>
-        /// 
         /// <param name="hmx">
-        ///     A double value representing a base of power functions
+        /// A double value representing a base of power functions
         /// </param>
         /// <param name="fmx">
-        ///     A double value representing a degree of first power function
+        /// A double value representing a degree of first power function
         /// </param>
         /// <param name="gmx">
-        ///     A double value representing a degree of second power function
+        /// A double value representing a degree of second power function
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a rationalization's result step-by-step
+        /// An array of strings representing a rationalization's result step-by-step
         /// </returns>
-        /// 
         public static string[] RDPFSB(double hmx, double fmx, double gmx) {
             
             string[] res;
@@ -45,20 +41,17 @@ namespace Karamath.Ratio.Stringify {
         }
 
         /// <summary>
-        ///     Formalizes a rationalization of the difference between a power function and unity
+        /// Formalizes a rationalization of the difference between a power function and unity
         /// </summary>
-        /// 
         /// <param name="hmx">
-        ///     A double value representing a base of power functions
+        /// A double value representing a base of power functions
         /// </param>
         /// <param name="fmx">
-        ///     A double value representing a degree of power function
+        /// A double value representing a degree of power function
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a rationalization's result step-by-step
+        /// An array of strings representing a rationalization's result step-by-step
         /// </returns>
-        /// 
         public static string[] RDBPFU(double hmx, double fmx) {
 
             string[] res;
@@ -80,23 +73,20 @@ namespace Karamath.Ratio.Stringify {
         }
 
         /// <summary>
-        ///     Formalizes a rationalization of the difference of power functions with the same degree
+        /// Formalizes a rationalization of the difference of power functions with the same degree
         /// </summary>
-        /// 
         /// <param name="hmx">
-        ///     A double value representing a degrees of power functions
+        /// A double value representing a degrees of power functions
         /// </param>
         /// <param name="fmx">
-        ///     A double value representing a base of first power function
+        /// A double value representing a base of first power function
         /// </param>
         /// <param name="gmx">
-        ///     A double value representing a base of second power function
+        /// A double value representing a base of second power function
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a rationalization's result step-by-step
+        /// An array of strings representing a rationalization's result step-by-step
         /// </returns>
-        /// 
         public static string[] RDPFSD(double hmx, double fmx, double gmx) {
 
             string[] res;

@@ -1,33 +1,28 @@
 namespace Karamath.Algorithms {
 
     /// <summary>
-    ///     Library module responsible for cyphering strings in popular and useful ways
+    /// Library module responsible for cyphering strings in popular and useful ways
     /// </summary>
-    /// 
     public static class Cyphers {
 
         /// <summary>
-        ///     Cyphers the string with Caesers cypher
+        /// Cyphers the string with Caesers cypher
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/?ref=gcse">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/?ref=gcse">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A string representing future cyphered string
+        /// A string representing future cyphered string
         /// </param>
         /// <param name="shift">
-        ///     A 8-bit integer value representing a shift in alphabet by key
+        /// A 8-bit integer value representing a shift in alphabet by key
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a cyphered version of given one with help of key
+        /// A string representing a cyphered version of given one with help of key
         /// </returns>
-        /// 
         public static string Caesers(string amx, byte shift) {
 
             char[] buffer = amx.ToCharArray();
@@ -55,17 +50,14 @@ namespace Karamath.Algorithms {
         }
     
         /// <summary>
-        ///     Cyphers the string with binaries coding
+        /// Cyphers the string with binaries coding
         /// </summary>
-        /// 
         /// <param name="amx">
-        ///     A string representing future cyphered string
+        /// A string representing future cyphered string
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a cyphered version of given one
+        /// A string representing a cyphered version of given one
         /// </returns>
-        /// 
         public static string Binaries(string amx) {
 
             string bins = "";
@@ -81,24 +73,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Cyphers the string with ASCII coding
+        /// Cyphers the string with ASCII coding
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/program-print-ascii-value-character/?ref=gcse">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/program-print-ascii-value-character/?ref=gcse">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A string representing future cyphered string
+        /// A string representing future cyphered string
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a cyphered version of given one
+        /// A string representing a cyphered version of given one
         /// </returns>
-        /// 
         public static string ASCII(string amx)
         {
             string res;

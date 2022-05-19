@@ -1,22 +1,22 @@
 namespace Karamath.Algorithms {
 
+    /// <summary>
+    /// Library module responsible for manipulating with different types of data
+    /// </summary>
     public static class Data {
 
         /// <summary>
-        ///     Finds the given number in array with help of linear search
+        /// Finds the given number in array with help of linear search
         /// </summary>
-        /// 
         /// <param name="arr">
-        ///     An array of 32-bit integer values representing an array on which function will work
+        /// An array of 32-bit integer values representing an array on which function will work
         /// </param>
         /// <param name="res">
-        ///     A 32-bit integer value representing the element to find in the array
+        /// A 32-bit integer value representing the element to find in the array
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing the position of element in array that suits the case
+        /// A 32-bit integer value representing the position of element in array that suits the case
         /// </returns>
-        /// 
         public static int FinderLIN(int[] arr, int res) {
             
             int k = -1,
@@ -38,20 +38,17 @@ namespace Karamath.Algorithms {
         }
         
         /// <summary>
-        ///     Finds the given number in array with help of binary search
+        /// Finds the given number in array with help of binary search
         /// </summary>
-        /// 
         /// <param name="arr">
-        ///     An array of 32-bit integer values representing an array on which function will work
+        /// An array of 32-bit integer values representing an array on which function will work
         /// </param>
         /// <param name="res">
-        ///     A 32-bit integer value representing the element to find in the array
+        /// A 32-bit integer value representing the element to find in the array
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing the position of element in array that suits the case
+        /// A 32-bit integer value representing the position of element in array that suits the case
         /// </returns>
-        /// 
         public static int FinderBIN(int[] arr, int res) {
             
             int length = arr.Length;

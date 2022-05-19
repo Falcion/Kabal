@@ -1,30 +1,25 @@
 namespace Karamath.Algorithms {
 
     /// <summary>
-    ///     Library module responsible for working and assembling different values and enumerables
+    /// Library module responsible for working and assembling different values and enumerables
     /// </summary>
-    /// 
     public static class Enumerables {
 
         /// <summary>
-        ///     Generates the Fibonacci's order in given range from one to given
+        /// Generates the Fibonacci's order in given range from one to given
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://mathworld.wolfram.com/FibonacciNumber.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://mathworld.wolfram.com/FibonacciNumber.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="range">
-        ///     An unsigned 32-bit integer value representing maximum range of Fibonacci's order
+        /// An unsigned 32-bit integer value representing maximum range of Fibonacci's order
         /// </param>
-        /// 
         /// <returns>
-        ///     A list of an unsigned 32-bit values representing the Fibonacci's order
+        /// A list of an unsigned 32-bit values representing the Fibonacci's order
         /// </returns>
-        /// 
         public static List<uint> Fibonacci(uint range) {
 
             List<uint> Fibonacci = new() { 1, 1 };
@@ -36,17 +31,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Generates the Leonardo's order in given range from one to given
+        /// Generates the Leonardo's order in given range from one to given
         /// </summary>
-        /// 
         /// <param name="nmx">
-        ///     An unsigned 32-bit integer value representing a position of number in Leonardo's numbers
+        /// An unsigned 32-bit integer value representing a position of number in Leonardo's numbers
         /// </param>
-        /// 
         /// <returns>
-        ///     An array of an unsigned 32-bit integers values representing a specified by position number in Leonardo's numbers
+        /// An array of an unsigned 32-bit integers values representing a specified by position number in Leonardo's numbers
         /// </returns>
-        ///  
         public static List<uint> Leonardo(uint range) {
 
             List<uint> Leonardo = new() { 1, 1 };
@@ -58,24 +50,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Generates an array of primes in given range from one to given
+        /// Generates an array of primes in given range from one to given
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Primes.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://mathworld.wolfram.com/Primes.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="range">
-        ///     An unsigned 32-bit integer value representing maximum range of primes array
+        /// An unsigned 32-bit integer value representing maximum range of primes array
         /// </param>
-        /// 
         /// <returns>
-        ///     A list of an unsigned 32-bit values representing the array of primes in given range
+        /// A list of an unsigned 32-bit values representing the array of primes in given range
         /// </returns>
-        ///
         public static List<uint> Primes(uint range) {
 
             List<uint> Primes = new();
@@ -101,24 +89,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Generates a hash set of prime divisors from given number with no repetitions
+        /// Generates a hash set of prime divisors from given number with no repetitions
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Factorization.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://mathworld.wolfram.com/Factorization.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A 32-bit integer value on which factorization will be executed
+        /// A 32-bit integer value on which factorization will be executed
         /// </param>
-        /// 
         /// <returns>
-        ///     A hash set of 32-bit integer values representing prime divisors of a given number
+        /// A hash set of 32-bit integer values representing prime divisors of a given number
         /// </returns>
-        /// 
         public static HashSet<int> Factorization(int amx) {
 
             HashSet<int> Primes = new();
@@ -139,24 +123,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Generates a string of after-point digits in PI constant
+        /// Generates a string of after-point digits in PI constant
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://mathworld.wolfram.com/Pi.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://mathworld.wolfram.com/Pi.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="pos">
-        ///     A 32-bit integer value representing count of digits after the point in PI constant
+        /// A 32-bit integer value representing count of digits after the point in PI constant
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing an array of digits after points in PI constant
+        /// A string representing an array of digits after points in PI constant
         /// </returns>
-        /// 
         public static string PointsPI(int pos) {
 
             /*
@@ -172,24 +152,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Generates an array of primes with sieve of Eratosthenes
+        /// Generates an array of primes with sieve of Eratosthenes
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://mathworld.wolfram.com/SieveofEratosthenes.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://mathworld.wolfram.com/SieveofEratosthenes.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="range">
-        ///     A 32-bit integer value representing range of an array of primes
-        /// </param>
-        ///     
+        /// A 32-bit integer value representing range of an array of primes
+        /// </param> 
         /// <returns>
-        ///     A list of 32-bit integer values representing an array of primes of sieve of Eratosthenes
+        /// A list of 32-bit integer values representing an array of primes of sieve of Eratosthenes
         /// </returns>
-        /// 
         public static List<int> Eratosthenes(int range) {
 
             bool[] sieve = new bool[++range];
@@ -225,24 +201,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Generates an array of numbers with sieve of Atkin
+        /// Generates an array of numbers with sieve of Atkin
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/sieve-of-atkin/">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/sieve-of-atkin/">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="range">
-        ///     A 32-bit integer value representing range of an array of numbers
-        /// </param>
-        ///     
+        /// A 32-bit integer value representing range of an array of numbers
+        /// </param>  
         /// <returns>
-        ///     A list of 32-bit integer values representing an array of numbers of sieve of Atkin
+        /// A list of 32-bit integer values representing an array of numbers of sieve of Atkin
         /// </returns>
-        /// 
 
         public static List<int> Atkin(int range) {
 
@@ -309,24 +281,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Finds number of steps to get unity according to the Collatz hypothesis
+        /// Finds number of steps to get unity according to the Collatz hypothesis
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://mathworld.wolfram.com/CollatzProblem.html">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://mathworld.wolfram.com/CollatzProblem.html">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A 32-bit integer number on which algorithm will reproduce Collatz hypothesis
+        /// A 32-bit integer number on which algorithm will reproduce Collatz hypothesis
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing number of steps to get unity
+        /// A 32-bit integer value representing number of steps to get unity
         /// </returns>
-        /// 
         public static int Collatz(int amx) {
 
             if (amx == 1)
@@ -338,23 +306,20 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Finds approximate equiality of numbers within given tolerance
+        /// Finds approximate equiality of numbers within given tolerance
         /// </summary>
-        /// 
         /// <param name="amx">
-        ///     A double value representing first number in an approximate comprasion expression
+        /// A double value representing first number in an approximate comprasion expression
         /// </param>
         /// <param name="mmx">
-        ///     A double value representing second number in an approximate comprasion expression
+        /// A double value representing second number in an approximate comprasion expression
         /// </param>
         /// <param name="ddx">
-        ///     A 64-bit integer value representing representation to tolerance of how big an error is tolerated
+        /// A 64-bit integer value representing representation to tolerance of how big an error is tolerated
         /// </param>
-        /// 
         /// <returns>
-        ///     A boolean value representing result of an approximate comprasion expression of two given numbers
+        /// A boolean value representing result of an approximate comprasion expression of two given numbers
         /// </returns>
-        /// 
         public static bool Approximate(double amx, double mmx, long ddx) {
 
             long bamx = BitCTL(amx);
@@ -366,17 +331,14 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Converts given number to bits to compelement in approximate
+        /// Converts given number to bits to compelement in approximate
         /// </summary>
-        /// 
         /// <param name="amx">
-        ///     A double value which will be complemented to bits
+        /// A double value which will be complemented to bits
         /// </param>
-        /// 
         /// <returns>
-        ///     A 64-bit integer value representing a complementary form in bits of given number
+        /// A 64-bit integer value representing a complementary form in bits of given number
         /// </returns>
-        /// 
         public static unsafe long BitCTL(double amx) {
 
             double* ptr = &amx;
@@ -390,27 +352,23 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Calculates a GCD of two numbers with recursive method
+        /// Calculates a GCD of two numbers with recursive method
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/c-program-find-gcd-hcf-two-numbers/?ref=lbp">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/c-program-find-gcd-hcf-two-numbers/?ref=lbp">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A 32-bit integer value representing a first number
+        /// A 32-bit integer value representing a first number
         /// </param>
         /// <param name="bmx">
-        ///     A 32-bit integer value representing a second number
+        /// A 32-bit integer value representing a second number
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing a GCD of two numbers
+        /// A 32-bit integer value representing a GCD of two numbers
         /// </returns>
-        /// 
         public static int GCD(int amx, int bmx) {
 
             if(amx == 0)
@@ -420,27 +378,23 @@ namespace Karamath.Algorithms {
         }
 
         /// <summary>
-        ///     Calculates a LCM of two numbers with help of GCD function
+        /// Calculates a LCM of two numbers with help of GCD function
         /// </summary>
-        /// 
         /// <remarks>
-        ///     For the definition and details of this topic: go to the 
-        ///     <see href="https://www.geeksforgeeks.org/program-to-find-lcm-of-two-numbers/?ref=lbp">
-        ///         origin
-        ///     </see>
+        /// For the definition and details of this topic: go to the 
+        /// <see href="https://www.geeksforgeeks.org/program-to-find-lcm-of-two-numbers/?ref=lbp">
+        /// origin
+        /// </see>
         /// </remarks>
-        /// 
         /// <param name="amx">
-        ///     A 32-bit integer value representing a first number
+        /// A 32-bit integer value representing a first number
         /// </param>
         /// <param name="bmx">
-        ///     A 32-bit integer value representing a second number
+        /// A 32-bit integer value representing a second number
         /// </param>
-        /// 
         /// <returns>
-        ///     A 32-bit integer value representing a LCM of two numbers
-        /// </returns>
-        /// 
+        /// A 32-bit integer value representing a LCM of two numbers
+        /// </returns> 
         public static int LCM(int amx, int bmx) {
 
             return (amx / GCD(amx, bmx)) * bmx;

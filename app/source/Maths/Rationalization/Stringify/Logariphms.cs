@@ -1,29 +1,25 @@
 namespace Karamath.Ratio.Stringify {
 
     /// <summary>
-    ///     Library module responsible for rationalization of logariphmics expressions in strings
+    /// Library module responsible for rationalization of logariphmics expressions in strings
     /// </summary>
-    /// 
     public static class Logariphms {
 
         /// <summary>
-        ///     Formalizes a rationalization of the difference of two logarithms with the same bases
-        /// </summary>
-        ///     
+        /// Formalizes a rationalization of the difference of two logarithms with the same bases
+        /// </summary> 
         /// <param name="hmx">
-        ///     A double value representing a base of logariphms
+        /// A double value representing a base of logariphms
         /// </param>
         /// <param name="fmx">
-        ///     A double value representing a number of first logariphm
+        /// A double value representing a number of first logariphm
         /// </param>
         /// <param name="gmx">
-        ///     A double value representing a number of second logariphm
+        /// A double value representing a number of second logariphm
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a rationalization's result step-by-step
+        /// An array of strings representing a rationalization's result step-by-step
         /// </returns>
-        ///
         public static string[] RDTLSB(double hmx, double fmx, double gmx) {
             
             string[] res;
@@ -49,20 +45,17 @@ namespace Karamath.Ratio.Stringify {
         }
 
         /// <summary>
-        ///     Formalizes a rationalization of the difference between the logarithm and the unit
+        /// Formalizes a rationalization of the difference between the logarithm and the unit
         /// </summary>
-        ///     
         /// <param name="hmx">
-        ///     A double value representing a base of logariphm
+        /// A double value representing a base of logariphm
         /// </param>
-        ///  <param name="fmx">
-        ///     A double value representing a number of logariphm
+        /// <param name="fmx">
+        /// A double value representing a number of logariphm
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a rationalization's result step-by-step
+        /// An array of strings representing a rationalization's result step-by-step
         /// </returns>
-        ///
         public static string[] RDBLAU(double hmx, double fmx) {
 
             string[] res;
@@ -86,20 +79,17 @@ namespace Karamath.Ratio.Stringify {
         }
 
         /// <summary>
-        ///     Formalizes a rationalization of a single logariphm
-        /// </summary>
-        ///     
+        /// Formalizes a rationalization of a single logariphm
+        /// </summary>   
         /// <param name="hmx">
-        ///     A double value representing a base of logariphm
+        /// A double value representing a base of logariphm
         /// </param>
-        ///  <param name="fmx">
-        ///     A double value representing a number of logariphm
+        /// <param name="fmx">
+        /// A double value representing a number of logariphm
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a rationalization's result step-by-step
+        /// An array of strings representing a rationalization's result step-by-step
         /// </returns>
-        ///
         public static string[] RSL(double hmx, double fmx) {
 
             string[] res;
@@ -123,23 +113,20 @@ namespace Karamath.Ratio.Stringify {
         }
 
         /// <summary>
-        ///     Formalizes a rationalization of the difference of two logarithms with the same numbers
+        /// Formalizes a rationalization of the difference of two logarithms with the same numbers
         /// </summary>
-        /// 
         /// <param name="hmx">
-        ///     A double value representing a numbers of logariphms
+        /// A double value representing a numbers of logariphms
         /// </param>
-        ///  <param name="fmx">
-        ///     A double value representing a base of first logariphm
+        /// <param name="fmx">
+        /// A double value representing a base of first logariphm
         /// </param>
-        ///  <param name="gmx">
-        ///     A double value representing a base of second logariphm
+        /// <param name="gmx">
+        /// A double value representing a base of second logariphm
         /// </param>
-        /// 
         /// <returns>
-        ///     A string representing a rationalization's result step-by-step
+        /// An array of strings representing a rationalization's result step-by-step
         /// </returns>
-        ///
         public static string[] RDTLSN(double hmx, double fmx, double gmx) {
 
             string[] res;

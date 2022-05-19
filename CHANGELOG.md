@@ -7,7 +7,16 @@ The format is based on and project adheres to:
 - https://keepachangelog.com/en/1.0.0/
 - https://semver.org/spec/v2.0.0.html/
 
-### — update of [1.0.2b- 2022.05.16]
+### — micro-update of [1.0.2- 2022.05.19]
+
+#### Added:
+- Returned basic array-sorting algorithms.
+- Written a Bernoulli's and Poisson's formulae.
+
+#### Fixed:
+- Wrong XML interpretation of commentaries to functions and classes.
+  
+### — update of [1.0.1-rc- 2022.05.16]
 
 #### Added:
 - Advanced trigonometric functions.
