@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
-    <Version>1.0.2</Version>
-    <Description>.NET class-library with arranged functions and only one purpose: make things in programming easier. </Description>
+    <Version>1.0.3</Version>
+    <Description>.NET class-library with arranged functions and only one purpose: make things in programming easier.</Description>
     <Copyright>MIT License</Copyright>
     <Product>Karamath</Product>
     <Authors>Falcion</Authors>
@@ -17,9 +17,10 @@
     <RepositoryUrl>https://github.com/Falcion/Karamath/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>readme-package.md</PackageReadmeFile>
-    <PackageReleaseNotes>This update of the project is its initial and in essence is a version of the refactoring of the same project — for arrangement of changes see the specified changelog update.</PackageReleaseNotes>
+    <PackageReleaseNotes>Implemeted a new XML feature of documenting the code of project.</PackageReleaseNotes>
 	<PackageLicenseFile>license.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
