@@ -11,7 +11,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 <!-- Declaring this paragraph of "AS-IS" -->
 
 <h6>
-The software is provided "as-is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. 
-</br>
+The software is provided "as-is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
+</h6> 
+
+<h6>
 In no event shall theauthors or copyright holders be liable for any claim, damages or otherliability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
-</h6>
+</h6> 
