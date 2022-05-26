@@ -128,7 +128,7 @@ If you use a different IDE from VS, read this article: [using new commands in .N
 
 ### Project usage
 
-As it said before - main purpose of this project is to make things easier.
+As it said before — main purpose of this project is to make things easier.
 
 Project currently includes this:
 
@@ -152,6 +152,7 @@ If you want to use this project in your own, just install it in and reference it
     ROADMAP of the project
         List of potential functions in future versions of project: no garanties
  -->
+ 
 ### Roadmap
 
 - [x] Implement new graphs algorithms and other algorithms alike DFS.
