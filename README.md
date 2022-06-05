@@ -119,7 +119,7 @@ Installation through «Nuget» with help of VS:
 3. Write the name of this project in the search bar.
 4. Download the latest stable version through the menu and class-library is ready to be used.
 
-If you use a different IDE from VS, read this article: [using new commands in .NET](STACKOVERFLOW).
+If you use a different IDE from VS, read this article: [using new commands in .NET][STACKOVERFLOW].
 
 [STACKOVERFLOW]: https://stackoverflow.com/questions/40675162/install-a-nuget-package-in-visual-studio-code/
 
@@ -165,7 +165,7 @@ If you want to use this project in your own, just install it in and reference it
 - [x] Write a changelog.
 - [ ] Write a "soft-read" documentation.  
 
-For a full list of proposed features and fixes see the: [open issues of repository](OPEN_ISSUES).
+For a full list of proposed features and fixes see the: [open issues of repository][OPEN_ISSUES].
 
 [OPEN_ISSUES]: https://github.com/Falcion/Karamath/issues/
 
@@ -191,7 +191,7 @@ If you have a suggestion that will improve this project: fork the repository and
 
 For one-single file contributioning, use a more quicker way without forking the repository.
 
-More about it in this article: [synching a one-single file fork](DCT_LINK).
+More about it in this article: [synching a one-single file fork][DCT_LINK].
 
 [DCT_LINK]: https://help.github.com/articles/syncing-a-fork/
 
@@ -207,7 +207,7 @@ Project is being distributed under: [MIT License](./LICENSE.md).
     Link is below:
         https://github.com/othneildrew/Best-README-Template
  -->
-Project's README made with help of: [a README pattern by Othneil Drew](REF).
+Project's README made with help of: [a README pattern by Othneil Drew][REF].
 
 [REF]: https://github.com/othneildrew/Best-README-Template/
 
@@ -233,10 +233,10 @@ Project ref is pinned at this repository.
 
 List of helpful and credited projects/resources.
 
-- [README pattern](README)
-- [.GITIGNORE](GITIGN)
-- [.GITATTRIBUTES](GITATT)
-- [.NET repository](.NET)
+- [README pattern][README]
+- [.GITIGNORE][GITIGN]
+- [.GITATTRIBUTES][GITATT]
+- [.NET repository][.NET]
 
 [README]: https://github.com/othneildrew/Best-README-Template/
 [GITIGN]: https://github.com/github/gitignore/
